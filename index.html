@@ -15,37 +15,56 @@
   <!--navbar-->
   <div class="container bg-white">
       <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-white bg-white">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img class=" border rounded-circle text-dark" src="image/ma k.gif" alt="" style="width: 30px; height: 30px;" > aranta</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbar">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active text-dark" aria-current="page" href="#">Accueil</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  active text-dark" href="#">A propos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link  active text-dark" href="#">Les auteurs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active text-dark " href="#">contact</a>
-              </li>
-              <li class="nav-item">
-              </li>
-            </ul>
+      
+
+      <!------------>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-white">
+        <div class="container">
+          <div class="col-6">
+            <a class="navbar-brand  text-dark" href="#"> 
+              <img class=" border rounded-circle" src="image/ma k.gif" alt="" style="width: 30px; height: 30px;" > 
+              aranta
+            </a>
           </div>
+          <div class="col-">
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon bg-dark"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active  text-dark" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  text-dark" href="#Apropos">A propos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  text-dark" href="#lesauteurs">Les auteurs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link  text-dark" href="#">contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link text-dark" href="#"></a>
+                  <ul class="dropdown-menu text-dark" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#"></a></li>
+                    <li><a class="dropdown-item" href="#"></a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#"></a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          
+         
         </div>
       </nav>
    </div>
   </div>
  
 <!--------------------bg image------------>
-  <section class="" style="background: url(image/mage1.jpg)center/cover no-repeat fixed rgb(197, 171, 195); opacity: .9;" >
+  <section  id="Accueil" class="" style="background: url(image/mage1.jpg)center/cover no-repeat fixed rgb(197, 171, 195); opacity: .9;" >
 
 
 
@@ -93,7 +112,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, necessitatibu
     </div>
   </section>
   <!----------------------------------container3------------>
-  <section class="container">
+  <section  id="Apropos" class="container " >
     <div class="row py-5">
       <div class="col">
         <div class="card  mb-3" style="max-width: 15rem;">
@@ -187,7 +206,7 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, necessitatibu
   </section>
   <section>
     <!-----------------------------container5---------------------->
-     <div class="container bg-light">
+     <div id="lesauteurs" class="container bg-light">
        <div class="row justify-content-center ">
          <div class="col-12  text-center py-5">
            <h1 class="text-info">Les auteurs</h1>
@@ -196,10 +215,10 @@ Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem, necessitatibu
          </div>
        </div>
      </div>
-      <div class="container">
+      <div class="container py-5">
         <div class="row">
-        <div class="col-sm-12 col-md-3">
-          <div class="card" style="width: 15rem;">
+        <div class="col-sm- col-md-3">
+          <div class="card"style="width: 15rem;">
             <img src="image/mage02.png" class="card-img-top w-100" alt="">
             <div class="card-body">
               <h5 class="card-title">Ousmane Tidjani</h5>
